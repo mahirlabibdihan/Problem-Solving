@@ -1,0 +1,11 @@
+A & B = C -> A & C = C
+A | B = C -> A | C = C
+
+A & B <= min(A,B)
+A | B >= max(A,B)
+
+gcd(A,B) = C -> gcd(A,C) = C 
+lcm(A,B) = C -> lsm(A,C) = C 
+
+gcd(A,B) <= min(A,B)
+lcm(A,B) >= max(A,B)

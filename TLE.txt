@@ -1,0 +1,16 @@
+Recursion: 
+In recursive function, the more and larger the parameters are, the more time it will take.
+So, we should only take the parameters that will locally change.
+
+Vector vs Map in graph:
+Vector is faster than map.
+
+Soring:
+To avoid TLE, we should use sorting algorithm with worst case time complexity <= O(nlog(n))
+Example: Merge sort, Heap sort
+
+Searching:
+Use binary search over linear search, wherever possible.
+
+Chess:
+King,Queen,Knight,Rook can move all over the board.
